@@ -24,9 +24,9 @@ export default class Counter extends React.Component {
         this.setState((previousState) => {
         return {
             count: previousState.count - 1,
-      };
-        
-      
+        };
+    });
+      }
     render()
     {
         return(
